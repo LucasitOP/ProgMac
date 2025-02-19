@@ -12,5 +12,6 @@
 	<classpathentry kind="src" path="EjercicioEnum"/>
 	<classpathentry kind="src" path="TresEnRaya"/>
 	<classpathentry kind="src" path="Cuaderno_Arrays_Objetos_Composicion"/>
+	<classpathentry kind="src" path="CuadernoRepasoTodo"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
