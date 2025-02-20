@@ -15,6 +15,8 @@ public class ejercicio5Beta {
         for (int i = 0; i < maxfilas; i++) {
             int[] fila1 = (i < arraybidimensional1.length) ? arraybidimensional1[i] : new int[0];//operador ternario
             int[] fila2 = (i < arraybidimensional2.length) ? arraybidimensional2[i] : new int[0];
+            //Ternario :  variable =(condicion) ? expresion true : expresion false;
+            // es decir con boolean si esto es verdado hace esto, sino lo otro
 
             int maxcolumnas = Math.max(fila1.length, fila2.length);
 
