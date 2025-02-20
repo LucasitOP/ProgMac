@@ -1,38 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="Ahorcado"/>
-	<classpathentry kind="src" path="AmbitoVariables"/>
-	<classpathentry kind="src" path="Apoyoexamen"/>
-	<classpathentry kind="src" path="autoevaluaciónLucasTimoc"/>
-	<classpathentry kind="src" path="Conversiones"/>
-	<classpathentry kind="src" path="Cuaderno_Arrays1"/>
-	<classpathentry kind="src" path="Cuaderno_Arrays2"/>
-	<classpathentry kind="src" path="Cuaderno_Arrays3"/>
-	<classpathentry kind="src" path="Cuaderno_BuclesExtra"/>
-	<classpathentry kind="src" path="Cuaderno_Character"/>
-	<classpathentry kind="src" path="Cuaderno_CharacterR"/>
-	<classpathentry kind="src" path="Cuaderno_Clase_Array"/>
-	<classpathentry kind="src" path="Cuaderno_Math"/>
-	<classpathentry kind="src" path="Cuaderno_MathR"/>
-	<classpathentry kind="src" path="Cuaderno_Saltos"/>
-	<classpathentry kind="src" path="Cuaderno_String"/>
-	<classpathentry kind="src" path="Cuaderno_String2"/>
-	<classpathentry kind="src" path="Estructuras_Iterativas"/>
-	<classpathentry kind="src" path="EstructurasAlternativas"/>
-	<classpathentry kind="src" path="examen1EV"/>
-	<classpathentry kind="src" path="Expresiones_Regulares"/>
-	<classpathentry kind="src" path="operadores"/>
-	<classpathentry kind="src" path="Practicapisos2022"/>
-	<classpathentry kind="src" path="prueba1"/>
-	<classpathentry kind="src" path="secuenciales"/>
-	<classpathentry kind="src" path="Secuenciales2"/>
-	<classpathentry kind="src" path="SecuencialesExtra"/>
-	<classpathentry kind="src" path="PrimeraEvaluacións"/>
-	<classpathentry excluding="Ahorcado/|AmbitoVariables/|Apoyoexamen/|autoevaluaciónLucasTimoc/|Conversiones/|Cuaderno_Arrays1/|Cuaderno_Arrays2/|Cuaderno_Arrays3/|Cuaderno_BuclesExtra/|Cuaderno_Character/|Cuaderno_CharacterR/|Cuaderno_Clase_Array/|Cuaderno_Math/|Cuaderno_MathR/|Cuaderno_Saltos/|Cuaderno_String/|Cuaderno_String2/|Estructuras_Iterativas/|EstructurasAlternativas/|examen1EV/|Expresiones_Regulares/|operadores/|Practicapisos2022/|prueba1/|secuenciales/|Secuenciales2/|SecuencialesExtra/|PrimeraEvaluacións/" kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-23">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="PrimeraEvaluacion"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

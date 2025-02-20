@@ -1,7 +1,7 @@
 package Apoyoexamen;
 
 	import java.util.Arrays;
-	import java.util.Scanner;
+import java.util.Scanner;
 
 	/*
 	 * Solicitar repetidamente números por consola hasta que se introduzca el 0. En una
