@@ -40,9 +40,9 @@ public class ejercicio2TablaMultiplicar {
 			int catet2=sc.nextInt();
 			System.out.println("Hipotenusa:"+hipotenusa(catet1, catet2));
 			break;
-		case 4:MenuCalculador();
+		case 4:MenuCalculador(sc);
 			break;
-		case 5:MenuFigura();
+		case 5:MenuFigura(sc);
 			break;
 		case 6:System.out.println("Gracias, Hasta luego!");
 		bucle=false;
@@ -77,10 +77,10 @@ public class ejercicio2TablaMultiplicar {
 		return resultado;
 		
 	}
-	public static void MenuCalculador() {
-		Scanner sc=new Scanner(System.in);
+	public static void MenuCalculador(Scanner sc) {
+		
 	
-		mostrarMenu();
+		mostrarMenu(sc);
 		int opcion=sc.nextInt();
 		
 		System.out.println("Introduce numero 1:");
@@ -94,7 +94,7 @@ public class ejercicio2TablaMultiplicar {
 			break;
 		case 3:System.out.println("Multiplicación:"+ multiplicacion(num1, num2));
 			break;
-		case 4:System.out.println("División:"+ division(num1, num2));
+		case 4:System.out.println("División:"+ division(sc,num1, num2));
 			break;
 		default:System.out.println("No has introducido el valor correcto");
 			break;
@@ -102,7 +102,7 @@ public class ejercicio2TablaMultiplicar {
 		
 		
 	}
-	public static void mostrarMenu() {
+	public static void mostrarMenu(Scanner sc) {
 		String mensaje="1ºSuma\n2ºResta\n3ºMultiplicación\n4ºDivisión";
 		System.out.println(mensaje);
 
@@ -116,8 +116,7 @@ public class ejercicio2TablaMultiplicar {
 	public static int multiplicacion(int a ,int b) {
 		return a*b;
 	}
-	public static double division(double a,double b) {
-		Scanner sc=new Scanner(System.in);
+	public static double division(Scanner sc,double a,double b) {
 
 		//Bucle para validar que el divisor no sea 0
 		while(b==0) {
@@ -129,8 +128,7 @@ public class ejercicio2TablaMultiplicar {
 		return a/b;
 	}
 
-	public static void MenuFigura() {
-		Scanner sc=new Scanner(System.in);
+	public static void MenuFigura(Scanner sc) {
 		
 		System.out.println("Introduzca 1er lado:");
 		 double lado1=sc.nextDouble();
