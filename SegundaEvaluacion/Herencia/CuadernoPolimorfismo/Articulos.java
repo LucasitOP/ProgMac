@@ -14,5 +14,10 @@ public Articulos(String codigo,String nombre, double precio,int cantidad) {
 	this.precio=precio;
 	this.cantidad=cantidad;
 }
+@Override
+public String toString() {
+	return "Articulo :codigo=" + codigo + ", nombre=" + nombre + ", precio=" + precio + ", cantidad=" + cantidad;
+}
+
 
 }

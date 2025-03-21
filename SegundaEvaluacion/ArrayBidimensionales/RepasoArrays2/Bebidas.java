@@ -48,7 +48,7 @@ public class Bebidas {
 			case 'P':
 				PedirBebida(sc, disponibles, bebidas);
 				break;
-			case 'R':
+			case 'R':RellenarBebida(sc, bebidas, disponibles);
 				break;
 			case 'S':
 				System.out.println("Salida!");
@@ -89,6 +89,9 @@ public class Bebidas {
 			int i = Integer.parseInt(opcion.substring(0, 1));
 			int j = Integer.parseInt(opcion.substring(1, 2));
 			System.out.println("Has introducido:" + i + "" + j);
+			if( i<0 & i>2 & j<0 &j>2) {
+				System.out.println("Has introducido una coordenada errónea");
+			}else {
 			if (disponible[i][j] == 0) {
 				System.out.println("No quedan bebidas disponibles");
 				repetirpedirbebida = false;
@@ -98,11 +101,42 @@ public class Bebidas {
 				disponible[i][j] -= 1;
 				repetirpedirbebida = false;
 			}
-		} while (repetirpedirbebida);
+		} }while (repetirpedirbebida);
 
 	}
-	public static void RellenarBebida() {
-		
+	public static void RellenarBebida(Scanner sc,String [][]bebidas,int[][]disponibles) {
+		final String contraseña="1DAWBEB2024";
+		System.out.println("Introduce la contraseña:");
+		String entraUsuario=sc.nextLine();
+		boolean acceso=false;
+		if(entraUsuario.equals(contraseña)) {
+			System.out.println("Acceso habilitado");
+			acceso=true;
+		}
+		if(acceso) {
+			System.out.println("Introduce la posición de la bebida a rellenar:");
+			String opcion = sc.nextLine();
+			int i = Integer.parseInt(opcion.substring(0, 1));
+			int j = Integer.parseInt(opcion.substring(1, 2));
+			System.out.println("Has introducido:" + i + "" + j);
+			if( i<0 & i>2 & j<0 &j>2) {
+				System.out.println("Has introducido una coordenada errónea");
+			}else {
+				System.out.println("Introduce la cantidad a rellenar:");
+				int cantidad=sc.nextInt();
+				if((disponibles[i][j]+cantidad)>=20) {
+					System.out.println("Solo se pueden agregar hasta 20, por lo que te lo relleno a 20");
+					disponibles[i][j]=20;
+					
+				}else {
+					disponibles[i][j]+=cantidad;
+					System.out.println("La cantidad añadida es:"+cantidad);
+				}
+			}
+			
+		}else {
+			System.out.println("Acceso denegado");
+		}
 	}
 
 }
