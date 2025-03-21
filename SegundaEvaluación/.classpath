@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="ArrayBidimensionales"/>
+	<classpathentry kind="src" path="TresEnRaya"/>
+	<classpathentry kind="src" path="Navidad"/>
+	<classpathentry kind="src" path="Funciones"/>
+	<classpathentry kind="src" path="Cuaderno_Arrays_Objetos_Composicion"/>
+	<classpathentry kind="src" path="Cuaderno_Arrays_Objetos_Composición2"/>
+	<classpathentry kind="src" path="EjercicioEnum"/>
+	<classpathentry kind="src" path="Herencia"/>
+	<classpathentry kind="src" path="CuadernoRepasoTodo"/>
+	<classpathentry kind="src" path="Examen2Eva"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
